@@ -1,0 +1,113 @@
+.cinema {
+    .cinema__header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .cinema__header-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+        background-color: $color-white;
+        color: $color-black;
+    }
+
+    .cinema__logo-wrapper {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 100px;
+        height: 50px;
+        border: 2px solid $color-black;
+        border-radius: 0 0 50% 50% / 0 0 100% 100%;
+        background: $color-white;
+        transform: translate(-50%, 100%);
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80%;
+            object-fit: contain;
+        }
+    }
+
+    .cinema__list-title{
+        text-align: center;
+    }
+
+    .cinema__film {
+        margin-top: 20px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid $color-grey;
+        border-top: 1px solid $color-grey;
+    }
+
+    .cinema__list-empty{
+        text-align: center;
+    }
+
+    .cinema__list-wrapper {
+        padding: 24px 12px;
+        background: $color-white;
+        margin: 0 10px;
+        border-radius: 20px 0;
+    }
+
+    .cinema__film-title {
+        font-size: 20px;
+    }
+
+    .cinema__film-controls {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .cinema__form-wrapper {
+        padding: 24px 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: $color-white;
+        border-radius: 20px 0;
+        text-align: center;
+    }
+
+    .cinema__input {
+        display: block;
+        width: 100%;
+        max-width: 220px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid $color-orange;
+        padding: 6px 10px;
+        font-size: 16px;
+        -webkit-appearance: none;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: border-color .25s linear;
+    }
+
+    .cinema__input:focus {
+        border-color: $color-red;
+    }
+
+    .cinema__form-add {
+        display: inline-block;
+        padding: 8px 18px;
+        margin-left: 0;
+    }
+
+    .cinema__label {
+        display: block;
+    }
+
+    .cinema__form-group {
+        margin-top: 12px;
+    }
+}

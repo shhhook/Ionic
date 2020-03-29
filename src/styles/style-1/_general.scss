@@ -1,0 +1,17 @@
+body{
+    padding-top: 100px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.button {
+    background-color: $color-light-green;
+    padding: 8px 16px;
+    margin-left: 8px;
+    color: $color-black;
+    border: 2px solid $color-green;
+    border-radius: 5px;
+    cursor: pointer;
+}
