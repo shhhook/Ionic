@@ -1,0 +1,97 @@
+body, html {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.button {
+    background-color: lightgreen;
+    padding: 8px 16px;
+    margin-left: 8px;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cinema__header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: black;
+    color: #fff;
+}
+
+.cinema__film {
+    margin-top: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.cinema__list-wrapper {
+    padding: 24px 12px;
+}
+
+.cinema__film-title {
+    font-size: 20px;
+}
+
+.cinema__film-controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cinema__form-wrapper {
+    padding: 24px 12px;
+    margin-top: -12px;
+}
+
+.cinema__input {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid green;
+    padding: 6px 10px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    margin-top: 8px;
+}
+
+.cinema__input:focus {
+    border-color: darkgreen;
+}
+
+.cinema__form-add {
+    display: inline-block;
+    padding: 8px 18px;
+    margin-left: 0;
+}
+
+.cinema__label {
+    display: block;
+}
+
+.cinema__form-group {
+    margin-top: 12px;
+}
