@@ -1,0 +1,22 @@
+@import "_variables";
+
+#app{
+    .my-photo{
+        margin-bottom: 15px;
+        max-width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.item{
+    .item__image-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item__image{
+        font-size: 24px;
+    }
+}
